@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDataLoader", "TestDataLoader\TestDataLoader.csproj", "{19E04CC9-9617-437A-A5D6-18823D2A2B80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDataLoader.Db", "TestDataLoader.Db\TestDataLoader.Db.csproj", "{8068109E-2847-4BA6-ACEA-E97E9FF3812F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19E04CC9-9617-437A-A5D6-18823D2A2B80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19E04CC9-9617-437A-A5D6-18823D2A2B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19E04CC9-9617-437A-A5D6-18823D2A2B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19E04CC9-9617-437A-A5D6-18823D2A2B80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8068109E-2847-4BA6-ACEA-E97E9FF3812F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8068109E-2847-4BA6-ACEA-E97E9FF3812F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8068109E-2847-4BA6-ACEA-E97E9FF3812F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8068109E-2847-4BA6-ACEA-E97E9FF3812F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
