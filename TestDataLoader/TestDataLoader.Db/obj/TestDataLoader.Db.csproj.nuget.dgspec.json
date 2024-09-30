@@ -42,11 +42,11 @@
           "dependencies": {
             "HotChocolate.ApolloFederation": {
               "target": "Package",
-              "version": "[14.0.0-rc.2, )"
+              "version": "[14.0.0-p.176, )"
             },
             "HotChocolate.Data": {
               "target": "Package",
-              "version": "[14.0.0-rc.2, )"
+              "version": "[14.0.0-p.176, )"
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",

@@ -42,11 +42,11 @@
           "dependencies": {
             "HotChocolate.ApolloFederation": {
               "target": "Package",
-              "version": "[14.0.0-rc.2, )"
+              "version": "[14.0.0-p.176, )"
             },
             "HotChocolate.Data": {
               "target": "Package",
-              "version": "[14.0.0-rc.2, )"
+              "version": "[14.0.0-p.176, )"
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
@@ -115,31 +115,31 @@
           "dependencies": {
             "GreenDonut": {
               "target": "Package",
-              "version": "[14.0.0-rc.2, )"
+              "version": "[14.0.0-p.176, )"
             },
             "HotChocolate": {
               "target": "Package",
-              "version": "[14.0.0-rc.2, )"
+              "version": "[14.0.0-p.176, )"
             },
             "HotChocolate.ApolloFederation": {
               "target": "Package",
-              "version": "[14.0.0-rc.2, )"
+              "version": "[14.0.0-p.176, )"
             },
             "HotChocolate.AspNetCore": {
               "target": "Package",
-              "version": "[14.0.0-rc.2, )"
+              "version": "[14.0.0-p.176, )"
             },
             "HotChocolate.AspNetCore.CommandLine": {
               "target": "Package",
-              "version": "[14.0.0-rc.2, )"
+              "version": "[14.0.0-p.176, )"
             },
             "HotChocolate.Data": {
               "target": "Package",
-              "version": "[14.0.0-rc.2, )"
+              "version": "[14.0.0-p.176, )"
             },
             "HotChocolate.Types.Analyzers": {
               "target": "Package",
-              "version": "[14.0.0-rc.2, )"
+              "version": "[14.0.0-p.176, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",

@@ -1,4 +1,4 @@
-### Bug
+### Bug 1: (Solved)
 When querying without the TypeExtended field, everything works fine:
 ```
 query {
@@ -35,3 +35,32 @@ System.InvalidOperationException: Duplicate property.
    at lambda_method98(Closure, IResolverContext)
    at HotChocolate.Types.Helpers.FieldMiddlewareCompiler.<>c__DisplayClass9_0.<<CreateResolverMiddleware>b__0>d.MoveNext()
 ```
+
+
+### Bug 2: 
+When querying a nullable object, an error is raised.
+
+Working query:
+
+```
+query {
+  foo(fooId: "335950de-18fd-4b49-8e0e-c01516c5ef0f") {
+    totalBarCount
+  }
+}
+```
+
+Failing query:
+```
+query {
+  foo(fooId: "335950de-18fd-4b49-8e0e-c01516c5ef0f") {
+    totalBarCount
+    baz {
+      id
+    }
+  }
+}
+```
+
+Baz is nullable:
+```public Baz? Baz { get; set; }```

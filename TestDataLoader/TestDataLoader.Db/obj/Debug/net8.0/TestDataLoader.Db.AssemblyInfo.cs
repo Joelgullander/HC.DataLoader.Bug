@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestDataLoader.Db")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee4d7461ea3a0931104f911d68c37b846b7985fc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abc3ee728155d0b20cf12b631e720c3c019a689d")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestDataLoader.Db")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestDataLoader.Db")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

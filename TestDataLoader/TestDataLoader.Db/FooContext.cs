@@ -21,8 +21,14 @@ public class ApplicationDbContext : DbContext
             new Bar { Id = new Guid("7216de35-ab08-4809-bea4-89bce62577bf"), Name = "Bar 1", FooId = new Guid("af83d886-bfa4-4c4e-18bd-08dcdd6a18db")},
             new Bar { Id = new Guid("f8cedc4f-82c6-4d38-8d00-07559344d7df"), Name = "Bar 2", FooId = new Guid("af83d886-bfa4-4c4e-18bd-08dcdd6a18db") }
         );
+        
+        // modelBuilder.Entity<Baz>().HasData(
+        //     new Baz { Id = new Guid("7216de35-ab08-4809-bea4-89bce62577bf"), Name = "Bar 1", FooId = new Guid("af83d886-bfa4-4c4e-18bd-08dcdd6a18db")},
+        //     new Bar { Id = new Guid("f8cedc4f-82c6-4d38-8d00-07559344d7df"), Name = "Bar 2", FooId = new Guid("af83d886-bfa4-4c4e-18bd-08dcdd6a18db") }
+        // );
     }
 
     public DbSet<Foo> Foos { get; set; }
     public DbSet<Bar> Bars { get; set; }
+    public DbSet<Baz> Baz { get; set; }
 }
